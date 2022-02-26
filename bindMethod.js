@@ -23,7 +23,10 @@ const user3 = {
     isRich: true
 }
 
+
 // user1.buyClothes(1000);
+
+// bind method is used for excess method from an object and it's returns a function. 
 const user2BuyClothes = user1.buyClothes.bind(user2);
 user2BuyClothes(1500);
 const user3BuyClothes = user1.buyClothes.bind(user3);
